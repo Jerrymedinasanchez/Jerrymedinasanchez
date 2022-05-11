@@ -227,7 +227,7 @@ btnEncriptar.addEventListener("click", function (event) {
 
 var btnCopiar = document.querySelector("#btn-copy");
 btnCopiar.addEventListener("click",function(){
-    document.write("Texto Copiado");
+    alert("Texto Copiado");
     let texto = document.querySelector("#msg");
     texto.select();
     document.execCommand("copy");
